@@ -1,0 +1,311 @@
+/* Nav-Bar-Items */
+
+.navbar {
+    border-bottom: solid white;
+    border-color: rgba(255, 255, 255, 0.2);
+    ;
+    border-width: 1px;
+}
+
+.collapse .navbar-nav {
+    border-right: solid white;
+    border-color: rgba(255, 255, 255, 0.2);
+    ;
+    border-width: 1px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.collapse .ul-btns {
+    list-style: none;
+
+}
+
+.ul-btns li {
+    padding: 10px;
+
+    display: inline;
+
+}
+
+
+
+/* Header*/
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+
+}
+
+/* design h1-Header*/
+.carousel-caption h1 {
+
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    line-height: 125px;
+    color: rgb(243, 243, 243);
+    animation: animation-h1 1s ease-in-out forwards;
+}
+
+/* Design p-header */
+.carousel-caption p {
+    font-size: 18;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: rgb(243, 243, 243);
+
+    animation: animation-h1 3s forwards;
+
+}
+
+/* animation h1 */
+@keyframes animation-h1 {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+.btn-carousel-caption1 {
+    color: rgb(243, 243, 243);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: #00D5EE;
+    animation: animation-h1 3s forwards;
+
+
+}
+
+.btn-carousel-caption2 {
+    color: rgb(243, 243, 243);
+    animation: animation-h1 2s forwards;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+
+}
+
+@keyframes animation-h1 {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+.btn-carousel-caption2:hover {
+    background-color: white;
+    transition: background-color 0.4s ease-out;
+    color: black;
+}
+
+.btn-carousel-caption1:hover {
+    background-color: #2ae2f7;
+    transition: background-color 0.4s ease-out;
+}
+
+/* end animation */
+
+/* section who we are*/
+.section-who-we {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgba(120, 120, 120, 0.2);
+
+}
+
+.section-who-we p {
+    font-family: "Source Sans Pro", sans-serif color;
+    color: rgb(120, 120, 120);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+
+
+.btn-who-are-we {
+    color: black;
+    background: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(120, 120, 120);
+    ;
+
+}
+
+/*desgn animation text section how are we*/
+.animi-text::after {
+    content: '';
+    color: #00D5EE;
+    font-weight: 400;
+
+    animation: animation-text 1s alternate infinite;
+}
+
+/*animation text section how are we*/
+@keyframes animation-text {
+    0% {
+        content: '';
+    }
+
+    10% {
+        content: 's|';
+    }
+
+    20% {
+        content: 'so|';
+    }
+
+    30% {
+        content: 'sof|';
+    }
+
+    40% {
+        content: 'soft|';
+    }
+
+    50% {
+        content: 'softw|';
+    }
+
+    60% {
+        content: 'softwa|';
+    }
+
+    70% {
+        content: 'softwar|';
+    }
+
+    100% {
+        content: 'software|';
+    }
+
+}
+
+/* end section how are we */
+
+/* design section  Creative Team*/
+.header-team h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+.layer-item {
+    position: absolute;
+    height: 0px;
+    bottom: 0px;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba(24, 200, 221, .6);
+
+
+}
+
+.item:hover .layer-item {
+    transform: translateY(-40px);
+    visibility: visible;
+    transition: visibility .5s ease-out, transform .5s ease;
+}
+
+.layer-header-team {
+    position: absolute;
+    right: 40%;
+    bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgba(111, 109, 109, 0.2);
+
+}
+
+
+/* end sectoin creative team */
+
+/* section what we do */
+.section-what-we-do {
+    background-color: #626262;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.layer-text-section-whatwedo {
+    position: absolute;
+
+    bottom: 0px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgba(161, 161, 161, 0.2);
+
+}
+
+.section-what-we-do ul {
+    list-style: circle;
+}
+
+.section-what-we-do ul li {
+    padding: 10px;
+    font-style: 20px;
+}
+
+.cheap-part {
+    background-color: #F7F7F7;
+}
+
+.layer-header-cheap-part {
+    position: absolute;
+    right: 50%;
+    bottom: 5px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgba(161, 161, 161, 0.2);
+
+
+}
+
+.cheap-part p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgba(127, 122, 122, 0.9);
+
+}
+
+.cheap-part {
+    background-color: rgb(127, 122, 122, );
+
+}
